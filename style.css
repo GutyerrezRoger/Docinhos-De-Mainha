@@ -297,6 +297,10 @@ body.menu-expanded button path {
   padding-top: calc(4.1rem + var(--nav-height));
 }
 
+#home .content a:nth-child(3) {
+  margin-top: -5rem;
+}
+
 #home::before {
   content: "";
   width: 100%;
@@ -326,6 +330,7 @@ body.menu-expanded button path {
 #home img {
   width: 40rem;
   display: block;
+  margin-top: -9rem;
   margin-inline: auto;
   object-position: 0 2rem;
 }
@@ -668,6 +673,10 @@ footer .social-links {
 
   #home .button {
     margin: 0;
+  }
+
+  #home .content a:nth-child(3) {
+    margin-top: 1rem;
   }
 
   #home img {
